@@ -40,7 +40,7 @@ Durante las pruebas se observó que el sistema era capaz de operar de forma cont
 
 4. Evidencia de Implementacion en proyecto 
 <div align="center">
- <img src="/implementacion de proyecto.mp4" alt="uart" width="550" />
+ <img src="/implementacion de proyecto.mp4" alt="evidencia aurt proyecto" width="550" />
  </div>
 
 6. Funcionamiento y conclusiones 
