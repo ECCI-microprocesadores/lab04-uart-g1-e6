@@ -23,7 +23,7 @@ En primer lugar, se desarrolló una librería en lenguaje C para el manejo del b
 
 En la segunda etapa se trabajó con el módulo UART del PIC. Aunque en el fragmento de código presentado no se incluye directamente la configuración UART, se asume su implementación para enviar datos en formato de texto plano al computador, utilizando una línea con el formato “Voltaje: X.XX”. Esta transmisión se realiza desde el microcontrolador hacia el puerto serie de la PC, permitiendo así la captura de datos en tiempo real.
 
-Finalmente, la tercera etapa consistió en el desarrollo de una interfaz gráfica mediante Python. Se utilizó la biblioteca PySerial para la recepción de datos desde el puerto serial, y la biblioteca Matplotlib para la visualización gráfica en tiempo real. Los datos fueron extraídos con una expresión regular, almacenados temporalmente en una estructura de tipo cola y graficados cada segundo, permitiendo observar la variación del voltaje a lo largo del tiempo.
+Finalmente, se implemeto todo lo anterior en nuestro proyecto final  para verificar el nivel de voltaje que esta ingresando por el MQ3 
 
 3. Resultados
 
@@ -38,9 +38,12 @@ Durante las pruebas se observó que el sistema era capaz de operar de forma cont
  <img src="/69169b80-c897-4e8f-be83-360c4b46123b-0.jpg" alt="uart" width="550" />
  </div>
 
+4. Evidencia de Implementacion en proyecto 
+<div align="center">
+ <img src="/implementacion de proyecto.mp4" alt="uart" width="550" />
+ </div>
 
-
-5. Funcionamiento y conclusiones 
+6. Funcionamiento y conclusiones 
 La implementación física del sistema requirió la conexión del microcontrolador PIC18F45K22 con una pantalla LCD de 16x2 con módulo I2C, y un conversor USB-TTL para establecer la comunicación UART con la computadora. Se utilizó un potenciómetro para simular una señal de voltaje variable que el microcontrolador podía leer y enviar. El sistema fue alimentado con una fuente de 5V regulada y se utilizaron resistencias de pull-up en las líneas I2C para garantizar una señal limpia y confiable.
 
 Uno de los desafíos más relevantes durante la implementación fue asegurar la compatibilidad de voltajes y sincronización entre el envío de datos desde el microcontrolador y la recepción en la PC. Sin embargo, estos retos fueron superados mediante la configuración adecuada de los registros UART y el uso de retardos temporales estratégicos.
