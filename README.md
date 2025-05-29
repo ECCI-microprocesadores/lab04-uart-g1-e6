@@ -45,9 +45,5 @@ La implementación física del sistema requirió la conexión del microcontrolad
 
 Uno de los desafíos más relevantes durante la implementación fue asegurar la compatibilidad de voltajes y sincronización entre el envío de datos desde el microcontrolador y la recepción en la PC. Sin embargo, estos retos fueron superados mediante la configuración adecuada de los registros UART y el uso de retardos temporales estratégicos.
 
-En conclusión, el sistema propuesto cumplió con los objetivos establecidos, permitiendo la lectura, visualización y transmisión de valores de voltaje de forma precisa y eficiente. La modularidad del código y la integración entre hardware y software permiten extender este proyecto a aplicaciones más complejas, tales como el monitoreo de sensores ambientales, sistemas de alarma o instrumentación remota. Además, la visualización simultánea en pantalla local y en interfaz gráfica remota lo convierte en una herramienta educativa y técnica útil para la enseñanza y desarrollo de sistemas embebidos.
-
-
-
-Nota: Documentación propuesta inicial sujeta a ajustes durante implementación práctica.
+En conclusión, el sistema propuesto cumplió con los objetivos establecidos, permitiendo la lectura, visualización y transmisión de valores de voltaje de forma precisa y eficiente. La modularidad del código y la integración entre hardware y software permiten extender este proyecto a aplicaciones más complejas.
 
