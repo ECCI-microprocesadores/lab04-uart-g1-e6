@@ -37,13 +37,10 @@ Este mismo funcionamiento fue validado en el proyecto final de alarma de gas, do
  <img src="/69169b80-c897-4e8f-be83-360c4b46123b-0.jpg" alt="uart" width="550" />
  </div>
 
+
 4. Evidencia de Implementacion en proyecto 
-<div align="center">
-  <video width="550" controls>
-    <source src="/implementacion de proyecto.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video.
-  </video>
-</div>
+
+[![Ver Video](https://img.youtube.com/vi/OjOp43iet3o/0.jpg)](https://www.youtube.com/watch?v=OjOp43iet3o)
 
 6. Funcionamiento y conclusiones 
 
