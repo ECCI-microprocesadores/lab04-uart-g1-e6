@@ -35,7 +35,7 @@ Durante las pruebas se observó que el sistema era capaz de operar de forma cont
 
 4. Diagrama de Bloques
 <div align="center">
- <img src="/69169b80-c897-4e8f-be83-360c4b46123b-0.png" alt="uart" width="550" />
+<img src="/69169b80-c897-4e8f-be83-360c4b46123b-0.png" alt="Block diagram showing a PIC18F45K22 microcontroller connected to a 16x2 LCD display via I2C and to a computer via UART using a USB-TTL converter. The diagram includes a potentiometer connected to the microcontroller to provide a variable voltage input. The environment is a schematic representation with labeled arrows indicating data flow between components. Text in the image: PIC18F45K22, LCD 16x2 I2C, USB-TTL, PC, Potenciómetro. The tone is technical and instructional." width="550" />
  </div>
 
 
